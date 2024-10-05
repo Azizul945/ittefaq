@@ -1,0 +1,606 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>দৈনিক ইত্তেফাক | The Daily Ittefaq</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"> 
+  
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+ <style>
+   
+        @font-face{
+            font-family:Solaiman;            
+            src: url('font/SolaimanLipi.ttf') format('truetype');        
+        }
+        body{
+            font-family:Solaiman;
+        }
+
+
+
+    .clearfix::after{
+        content: "";
+        margin: table;
+        clear:both;
+    }
+  
+    
+    .row{
+       
+        background-color:white;
+    }
+    .col-wrap{
+        
+        width: 1300px;
+        margin: 0 auto ;
+        
+    }
+    .col{
+        float:left;  
+       
+    }
+    .header{
+        background-color:#206CB4;
+        width: 100%;
+        
+    }
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .vid{
+        font-size: 11px;
+        margin-top: -30px;
+    }
+    .viv{
+        margin-top: -20px;
+        font-size: 11px;
+    }
+    ul.menu{
+        padding: 0px;
+        margin: 10px auto;
+        list-style: none;
+    }
+    ul.menu > li{
+        float:left;
+    }
+    ul.menu > li > a{
+        
+        text-decoration: none;
+        display: block;
+        padding: 17px;
+        box-sizing: border-box;
+        background-color:#206CB4;
+        color:#fff
+        
+    }
+     ul.menu> li > a:hover{
+        color: #000
+    }
+    
+    
+    .h1{
+        margin-top: 10px;
+        font-size: 25px;
+        image-resolution: 10px;
+        
+    }
+    
+.fast-row{
+   width: 1300px;
+   min-height: 600px;
+} 
+
+.fast-row-1{
+    width:calc(50% - 10px); 
+    margin-right: 20px;
+    height:100%;
+    
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+.fast-row-2{
+    width:calc(25% - 10px); 
+    height:100%;
+   
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.fast-row-3{
+    width:calc(25% - 10px); 
+    height:100%;
+   
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.last-row-fast{
+        height:390px;
+        margin-bottom: 10px;
+  
+}
+
+/*-------last row---*/
+.last-row{
+   width: 1300px;
+   min-height: 600px;
+}
+.last-row-1{
+    width:calc(50% - 10px); 
+    margin-right: 20px;
+    height:100%;
+    
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+.last-row-2{
+    width:calc(50% - 10px); 
+    height:100%;
+   
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.last-row-second{
+     height:200px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+/*--neasted col---*/
+.last-row-second-fast{
+    
+
+}
+
+    /* --------------------------------------------------------footre----------------------------------------- */
+.col-wrap1{
+   padding-top:20px;
+}
+
+
+.fast{
+    width: 20%;
+}
+
+.second{
+    width: 35%;
+    
+}
+.third{
+    width: 15%;
+}
+footer{
+    width: 100%;
+    background-color:white;
+}
+.row20{
+    background-color:rgb(236, 234, 234);
+    width: 1300px;
+    margin: 0 auto;
+}
+.fast img{
+    width: 65%;
+    padding: 0px 56px;
+    margin-top: 65px;
+    padding-left: 29px;
+}
+.fast p{
+    padding: 0px 56px;
+    padding-left: 29px;
+}
+.third ul{
+    border-right: 1px solid black;
+    list-style: none;
+}
+.deve{
+   display: flex; 
+   justify-content: right;
+   padding: 10px 5px;
+}
+.deve span{
+  font-size: 20px;  
+}
+.deve .ore{
+   color: orange; 
+}
+
+.fourth-row{
+       width: 100%;
+       height: 500px;
+       background-color: white;
+    }
+  .fourth-row-1{
+        width:calc((100% - 25px) / 2);
+        
+        margin-right: 25px;
+        background-color:white;
+        height:500px;
+        margin-top: 25px;
+        
+    }
+    .fourth-row-1:last-child{
+        margin-right: 0px;
+    }
+</style>
+</head>
+
+ <body>
+     <!--Header-->
+    <div class="container clearfix"> 
+        <div class="row clearfix">
+            <div class="col-wrap ">
+                <div style="float: left;">
+                        <i class="fa fa-bars" aria-hidden="true" style="font-size:25px;margin-top:10px;"></i>                                          <!--  <img src="img/img3.jpg" >--> 
+                        <i class="fa fa-search search_icon float-left text-muted border rounded-circle search_icon_tomal" aria-hidden="true"></i>
+                </div>
+            </div>
+                <div class="col-wrap" >
+                    <div style="text-align:center; height: 120px; margin-top:40px;">
+                        <img src="img/main-logo.png"/>
+                    </div>
+                </div>   
+        
+        
+                <div class="row clearfix" >
+                    <div class=" col-wrap " style="display: grid; grid-template-columns: 1fr 300px;">
+                        <div class=" vid ">
+                                <strong> <i class="fa fa-map-marker" aria-hidden="true" ></i>ঢাকা </strong> <strong><i class="fa fa-calendar" aria-hidden="true" style="padding:0 5px 0 5px"></i>বৃহস্পতিবার, সেপ্টেম্বর ২৩, ২০২১, ৮ আশ্বিন ১৪২৮  | <i class="fa fa-clock-o" aria-hidden="true"></i> <span id="curTime"> ১১:৩৪</span> </strong><strong> <img src="img/image.jpg">৩২ °সে </strong> 
+                        </div>
+                        <div class=" vid viv">
+                                <strong>আজকের পত্রিকা । ই-পেপার । আর্কাইভ । বাংলা কনভার্টার</strong> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row clearfix" >
+                    <div class=" col-wrap " >
+                       <div style="height: 100px;" class="center">
+                            <div>
+                                <img src="img/add.gif"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div><!--End Header-->
+        <!-- navnar start -->
+        <div class="row  clearfix " style="position: sticky; top: 0; background-color: #fff;">
+            <div class=" col-wrap clearfix ">
+               
+                    <nav>
+                        <ul class="menu clearfix header ">
+                            <li ><a href="">করোনা আপডেট</a></li>
+                            <li><a href="">রাজধানী</a></li>
+                            <li><a href="">জাতীয়</a></li>
+                            <li><a href="">রাজনীতি</a></li>
+                            <li><a href="">সারাদেশ</a></li>
+                            <li><a href="">বিশ্ব সংবাদ</a></li>
+                            <li><a href="">অর্থনীতি</a></li>
+                            <li><a href="">খেলা</a></li>
+                            <li><a href="">বিনোদন</a></li>
+                            <li><a href="">ভিন্ন চোখে</a></li>
+                            <li><a href="">লাইফস্টাইল</a></li>
+                            <li><a href="">আদালত</a></li>
+                            <li><a href="">মতামত</a></li>
+                           <li><a href="">ওয়েব স্টোরিস</a> </li>
+                    </nav>
+                </div>
+        </div> 
+        <!-- navnar end -->
+        <!-- first row start -->
+        <div class="row ">
+            <div class="col-wrap clearfix last-row" >
+                <div class="col fast-row-1">
+                    <div class="last-row-fast" >
+                        <img src="img/image_project.jpeg"alt="news" width="100% " height="80%">
+                        <h2>দেশে করোনায় ফের মৃত্যু বেড়েছে</h2>
+                        <p >গত ২৪ ঘণ্টায় দেশে করোনা ভাইরাসে আক্রান্ত হয়ে আরও ২৩ জনের মৃত্যু হয়েছে। এ নিয়ে দেশে করোনায় মৃতের সংখ্যা বেড়ে দাঁড়ালো ২৭ হাজার ৫১০ জনে। একই সময় নতুন করে শনাক্ত... </p>
+                    </div><br><br>
+                    <div class="last-row-second">
+                        <div class="last-row-second-fast">
+                            <img src="img/image hasina.jpeg"alt="news" width="100% " height="70%">
+                            <p style="font-weight:bold;font-size:15px;">আগামীকাল রাতে দেশে ফিরছেন প্রধানমন্ত্রী </p>
+                            <p style="font-size:13px;">গেল বারের মত এবারসহ মোট ১৯তম বারের মতো প্রধানমন্ত্রী শেখ হাসিনা জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের ১৯৭৪...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-f.jpeg"alt="news" width="100% " height="70%">
+                            <p style="font-weight:bold;font-size:15px;"> দুই ফিলিস্তিনিকে হত্যা করেছে ইসরাইলি বাহিনী</p>
+                            <p style="font-size:13px;">অধিকৃত পশ্চিম তীরের জেনিন শহরের কাছের একটি গ্রামে অভিযানের সময় দুই ফিলিস্তিনিকে...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-9.jpeg"alt="news" width="100% " height="70%">
+                            <p style="font-weight:bold;font-size:15px;">নবনির্বাচিত সংসদ সদস্য প্রাণ গোপাল দত্ত। </p>
+                            <p style="font-size:13px;">একাদশ জাতীয় সংসদের উপ-নির্বাচনে  কুমিল্লাা-৭ থেকে   আওয়ামী লীগ মনোনীত নবনির্বাচিত সংসদ সদস্য...</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col fast-row-2">
+                    <div class="first-row" style="height: 110px; margin-top:-14px;   padding: 0px;">
+                        <img src="img/image-chadpur.jpeg" style="float:left;margin: 0 10px 0 10px;"  height="100%" width="100" />
+                        <p style="font-size: 14px ; font-weight: bold;"><strong>যে কারণে এইচএসসির ফরম পূরণ করতে পারেননি মতলবের ৩৭৮ শিক্ষার্থী</strong></p>
+                        <p style="font-size: 13px ;">আজ বৃহস্পতিবার এইচএসসির ফরম পূরণের বর্ধিত সময়সীমা শেষ হয়...</p>
+                        
+                      </div>
+                      <div class="first-row" style="height: 112px;">
+                        <img src="img/image-4 jpeg.jpg" style="float:left;margin: 0 10px 0 10px;"  height="100%" width="100"/>
+                         <p style="font-size: 14px ; font-weight: bold;"><strong>মরক্কো, আলজেরিয়া, তিউনিশিয়ার বিরুদ্ধে কঠোর ম্যাক্রোঁ সরকার</strong> </p>
+                         <p style="font-size: 13px">মাগরেব অঞ্চলের দেশ তিনটি ‘অবৈধ অভিবাসন-প্রত্যাশীদের' ফেরানোর বিষয়ে অসহযোগিতা করায় ফ্রান্স...</p>
+                      </div>
+                      <div class="first-row" style="height: 112px;">
+                         <img src="img/image-4.jpeg" style="float:left;margin: 0 10px 0 10px;"  height="100%" width="100"/>
+                         <p style="font-size: 14px ; font-weight: bold;"><strong>বঙ্গবন্ধুর আদর্শ থেকে শিক্ষা নিতে তরুণদের প্রতি রাষ্ট্রপতির আহ্বান</strong></p> 
+                         <p style="font-size: 13px ">বৃহস্পতিবার (৩০ সেপ্টেম্বর) ওসমানি স্মৃতি মিলনায়তনে ‘বঙ্গবন্ধু গ্লোবাল ইয়ুথ লিডারশীপ...</p>
+                      </div>
+                      <div class="first-row" style="height: 115px;">
+                         <img src="img/image-5.jpeg" style="float:left;margin: 0 10px 0 10px;"  height="100%" width="100"/>
+                          <p style="font-size: 14px; font-weight: bold; "><strong>রোহিঙ্গা নেতা মুহিবুল্লাহ হত্যায় জড়িত কারা </strong></p>
+                          <p style="font-size:13px;">কক্সবাজারের উখিয়ায় কুতুপালং ক্যাম্পের ভেতরে সশস্ত্র সন্ত্রাসীদের গুলিতে রোহিঙ্গাদের একজন শীর্ষ নেতা...</p>
+                      </div>
+                      <div class="first-row" style="height: 126px;">
+                          <img src="img/image-6.jpg"style="float:left;margin: 0 10px 0 10px;" height="100%" width="100"/>
+                          <p style="font-size: 14px; font-weight: bold; "> <strong>জাতিসংঘের সিনিয়র সাত কর্মকর্তাকে বহিষ্কার করলো ইথিওপিয়া</strong></p>
+                           <p style="font-size:13px;">প্রতিবেদনে বলা হয়েছে, দুইদিন আগে জাতিসংঘের সিনিয়র এক কর্মকর্তা বলেছিলেন, টাইগ্রেয়ের উত্তরাঞ্চলের লক্ষ লক্ষ মানুষ সম্ভবত দুর্ভিক্ষের সম্মুখীন...</p>
+                      </div>
+                      <div class="first-row" style="height: 100px;" >
+                          
+                      </div>
+                </div>
+
+                <div class="col fast-row-3" style="margin-left:10px;">
+                    <div  style="height:260px; ">
+                        <img src="img/Capture-1.png" alt="news" width="96%">
+                    </div>
+                    <div style="height:220px">
+                        <img src="img/Capture-2.png"alt="news" width="96%">
+                    </div><br/>
+                    <div style="height: 128px;">
+                        <img src="img/corona_banner.jpeg" alt="news" style="width: 100%; height: 99%;">
+                    </div>
+                    
+                </div>
+            
+            </div>
+        </div> 
+        <!-- first row end -->
+
+         <br/>
+         
+         <!-- start 2nd row -->
+         <div class="row">
+            <div class="col-wrap clearfix">
+                 <div class="col" style=" width:calc(50% - 10px);  margin-right:20px; height: 35px; background-color:white;"> 
+                     <h2 style="color:#206CB4; border-bottom: 2px blue solid ;"><strong > বিশ্ব সংবাদ</strong></h2>
+                 </div>
+                 <div class="col" style="width:calc(50% - 10px); height: 35px; background-color: white;">
+                     <h2 style="color:#206CB4; border-bottom: 2px blue solid ;"><strong > অর্থনীতি</strong></h2>
+                 </div>
+             </div>
+         </div><!--end second row-->
+          <br/>
+          <div class="row "><!--Start 3th row-->
+            <div class="col-wrap clearfix ">
+                <div class="fourth-row" >
+                    <div class="col clearfix col fourth-row-1">
+                        <div class="col" style="width:calc(50% - 10px); margin-right: 20px; margin-bottom:0px;height:470px; margin-top:10px ">
+                            <div style="height: 470px; margin-top: 10px; " class="second-row-2">
+                                <img src="img/image-279781-1633080068.jpeg"alt="news" width="100%" />
+                                <p style="text-align: justify; font-size: 1.1em; font-weight: bold;">পাকিস্তানের সঙ্গে রফতানিতে সমস্যার সম্মুখীন আফগান ব্যবসায়ীরা</p>
+                                <p style="font-size:13px;">আফগানিস্তানের বহু রপ্তানিকারক পাকিস্তানের সঙ্গে পয়েন্ট ক্রসিংয়ে সমস্যার সম্মুখীন হচ্ছে। মূলত প্রতিবেশী দেশটি দৈনিক হাতেগোনা নির্দিষ্টসংখ্যক আফগান ট্রাক পাকিস্তানে প্রবেশের অনুমতি দেয়। খবর এএনআই
+                                টোলো নিউজ জানিয়েছে, প্রতিদিন অন্তত ১২০টি পাকিস্তানি ট্রাক সীমান্ত অতিক্রম করে আফগানিস্তানে ঢুকে। বিপরীতে মাত্র ২০টি আফগান ট্রাক পাকিস্তানে ঢুকতে পারে। পাকিস্তান-আফগানিস্তান যৌথ চেম্বার অব কমার্স অ্যান্ড ইন্ডাস্ট্রির প্রধান খান জান অলোকোজয় বলেন, এটি একটি গুরুত্বর সমস্যা। আমরা বেশ কয়েকবার সমস্যাটি নিয়ে পাকিস্তানি কর্মকর্তাদের সঙ্গে কথা বলেছি। কিন্তু এটি এখনো অমীমাংসিত রয়ে গেছে।
+
+                                নাঙ্গারহার প্রদেশের ব্যবসায়ীরা অভিযোগ করে বলেন... </p>
+                            </div>  
+                        </div>            
+                                
+                    <div class="col" style="width: calc(50% - 10px); background-color:white; height: 470px;margin-top: 10px;">
+                            <div style="width: 100%; height: 155px; margin-top: 0px;" class="fourth-row-1">
+                                <img src="img/image-279777-1633077668.jpeg" style="float:left;margin-right: 25px;" height="100%" width="100"/> 
+                                <p style="padding: 0px; margin: 10px  auto;font-size:14px;"><strong>একশ বছর পর রাশিয়ায় প্রথম রাজকীয় বিয়ে</strong></p>
+                                <p style="font-size:13px;">জানা যায়, সেন্ট পিটার্সবার্গের সেন্ট আইজাক ক্যাথেড্রালে জার পরিবারের সন্তান গ্র্যান্ড ডিউক জর্জ মিখালোভিচ রোমানভ। তিনি ইতালির ভিক্টোরিয়া রোমানোভা বেত্তারিনির সঙ্গে বিয়ের গাঁটছাড়া বাঁধবেন ...</p>
+                            </div>
+                            <div style="width: 100%; height: 155px; margin-top: 0px;"class="fourth-row-1">
+                                <img src="img/image-279776-1633077632.jpeg"style="float:left;margin-right: 25px;" height="100%" width="100"/> 
+                                <p style="padding: 0%; font-weight: bold; font-size:14px;">আফগানিস্তানে নতুন গৃহহীনদের ৮০ শতাংশ নারী-শিশু</p>
+                                <p style="font-size:13px;">প্রতিবেদনে বলা হয়েছে, তথ্যটি এমন সময়ে প্রকাশ্যে এলো যখন আফগানিস্তানে মানবিক সংকট মোকাবিলায় বিশ্ববাসীর কাছে সহায়তা চাচ্ছে আন্তর্জাতিক সংস্থাগুলো। জাতিসংঘের সংস্থার মতে...</p>
+                            </div>
+                            <div style="width: 100%; height: 125px; margin-top: 10px;"class="fourth-row-1">
+                                <img src="img/image-279774-1633076209.jpeg"style="float:left;margin-right: 25px;" height="100%" width="100"/>
+                                <p style="font-weight: bold;font-size:14px;">তালেবানকে নিষিদ্ধ করতে আইন প্রবর্তন করলেন মার্কিন সিনেটররা</<p>
+                                <p style="font-size:13px;">প্রতিবেদনে বলা হয়েছে, গত মঙ্গলবার (২৮ সেপ্টেম্বর) প্রবর্তন করা আইনটির শিরোনাম ‘আফগানিস্তানে সন্ত্রাস দমন, তদারকি এবং জবাবদিহিতা আইন...</p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col fourth-row-1">
+                        <div class="col" style="width: calc(50% - 10px); margin-right: 20px;background-color: white; height:470px; margin-top: 10px; ">
+                           <img src="img/gold.webp"alt="news" width="100%" height="69%" style="margin-top:10px;"/>
+                            <p style="font-weight: bold;font-size:14px;">ভরিপ্রতি স্বর্ণের দাম কমলো</p>  <!--nasted col-->
+                            <p style="font-size:13px;">গেল বছরের ২৪ অক্টোবরের পর থেকে কয়েক ধাপে দেশের বাজারে স্বর্ণের দাম বেড়েছিল। বাংলাদেশ জুয়েলার্স সমিতি আজ বুধবার বিকেলে দাম সমন্বয়ের কথা জানায় আজ শনিবার অবশ্য সোনার গহনা কিনতে ক্রেতাদের এরচেয়ে বেশি অর্থ গুনতে হবে। কারণ বাজুস নির্ধারণ করা দামের ওপর ৫ শতাংশ ভ্যাট যোগ করে সোনার গহনা বিক্রি করা হয়। একই সঙ্গে ভরিপ্রতি ...</p>
+                              
+                        </div>
+                    
+                        <div class="col" style="width: calc(50% - 10px); background-color:white; height: 470px; ">
+                            <div style="width: 100%; height: 155px; " class="fourth-row-1">
+                                <img src="img/image-279243-1632906527.jpeg"style="float:left; margin-right: 25px;" height="100%" width="100"/>
+                                <p style="font-weight: bold; padding: 10px auto;font-size:14px;">ধামাকা শপিং যেভাবে ধোঁকা দিয়েছে গ্রাহকদের</p>
+                                <p style="font-size:13px;">যাত্রা শুরুর ২০১৮ সালে শুরু হওয়া ধামাকা ডিজিটাল ২০২০ থেকে ধামাকা শপিং ডট কম নামে কার্যক্রম শুরু করে। বিপুল পরিমাণ অর্থ লেনদেন হওয়া সত্ত্বেও বর্তমানে ওই একাউন্টে রয়েছে...</p>
+                            </div>
+                            <div style="width: 100%; height: 155px;"class="fourth-row-1">
+                                <img src="img/image-279730-1633029630.jpeg"style="float:left;margin-right: 25px;" height="100%" width="100"/>
+                                <p style="padding:10px auto; font-weight: bold;font-size:14px; " >টাকা লুট করে পালানোর পথে আরও ১২ প্রতিষ্ঠান</p>
+                                <p style="font-size:13px;">শুধু দালাল প্লাস না, এমন আরও ১১টি প্রতিষ্ঠানের বিরুদ্ধে অভিযোগ উঠেছে নির্দিষ্ট সময়ে গ্রাহকের পণ্য সরবরাহ না করার। প্রতিষ্ঠানগুলোর মালিকদের খুঁজে পাচ্ছেন না গ্রাহকরা...</p>
+                            
+                            </div>
+                            <div style="width: 100%; height: 120px; margin-top: 10px;"class="fourth-row-1">
+                                <img src="img/image-279745-1633036716.jpeg" style="float:left; margin-right: 25px;" height="100%" width="100"/>
+                                <p style="font-weight: bold; padding: 20px auto;font-size:14px;">৩০ কোটি টাকা পর্যন্ত মূলধন সংগ্রহ করতে পারবেন এসএমই উদ্যোক্তারা</p>
+                                <p style="font-size:13px;">বৃহস্পতিবার ঢাকা স্টক এক্সচেঞ্জ-ডিএসইর চেয়ারম্যান মো. ইউনুসুর রহমানের সভাপতিত্বে...</p>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!--End 3th row-->
+         <div class="row">
+            <div class="col-wrap clearfix">
+                 <div class="col" style=" width:calc(50% - 10px);  margin-right:20px; height: 35px; background-color:white;"> 
+                     <h2 style="color:#206CB4; border-bottom: 2px blue solid ;"><strong > খেলা</strong></h2>
+                 </div>
+                 <div class="col" style="width:calc(50% - 10px); height: 35px; background-color: white;">
+                     <h2 style="color:#206CB4; border-bottom: 2px blue solid ;"><strong > বিনোদন</strong></h2>
+                 </div>
+             </div>
+         </div>  
+        <!--Last row-->
+        <div class="row ">
+            <div class="col-wrap clearfix last-row" >
+                <div class="col last-row-1">
+                    <div class="last-row-fast" >
+                        <img src="img/herican.jpg"alt="news" width="100% " height="80%">
+                        
+                        <p style="font-weight:bold; font-size:18px;">হ্যারি কেনের হ্যাটট্রিক</p>
+                        <p style="font-size:13px;">পানামার বিপক্ষে হ্যাটট্রিক করলেন হ্যারি কেন। ইংল্যান্ড দলের প্রথম খেলোয়াড়ের হিসেবে রাশিয়া বিশ্বকাপে হ্যাটট্রিক করেন হ্যারি কেন। তবে ইংল্যান্ডের দ্বিতীয় খেলোয়াড় হিসেবে বিশ্বকাপে হ্যাটট্রিক করলেন হ্যারি কেন...</p>
+                    </div>
+                    <br>     
+                    <div class="last-row-second">
+                        <div class="last-row-second-fast">
+                            <img src="img/image-280023-1633148328.jpeg"alt="news" width="100% " height="70%">
+                            
+                            <p style="font-weight:bold; font-size:15px;">ক্লাব কিছু না জানালেও সব জানেন কোম্যান</p>
+                            <p style="font-size:13px;">গতকাল ক্লাবে গিয়েছিলেন বার্সা প্রেসিডেন্ট হোয়ান লাপোর্তা। বাইরে দাঁড়িয়ে...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-280572-1633316989.jpeg"alt="news" width="100% " height="70%">
+                         
+                            <p style="font-weight:bold; font-size:15px;">শেষ হল ভারত-অষ্ট্রেলিয়া নারী দলের টেস্ট</p>
+                            
+                            <p style="font-size:13px;">প্রথম থেকেই ভারত ও অষ্ট্রেলিয়া মহিলা দলের ঐতিহাসিক পিঙ্ক বল...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-280576-1633319714.jpeg"alt="news" width="100% " height="70%">
+                           
+                            <p style="font-weight:bold; font-size:15px;">ক্লাব কিছু না জানালেও সব জানেন কোম্যান</p>
+
+                            <p style="font-size:13px;">গতকাল ক্লাবে গিয়েছিলেন বার্সা প্রেসিডেন্ট হোয়ান লাপোর্তা...</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col last-row-2">
+                    <div class="last-row-fast">
+                        <img src="img/benodon.webp"alt="news" width="100% " height="80%">
+                        <p style="font-weight:bold; font-size:18px;">আমিরের ‘মা’কে নিয়ে ব্যস্ত শাহরুখপুত্র</p>
+                        <p style="font-size:13px;">টাইমস অব ইন্ডিয়ার অনুযায়ী, ‘স্টারডমে’ এরইমধ্যে আরিয়ানের সঙ্গে কাজ করেছেন অভিনেতা ববি দেওল। এবার সেই দলে যোগ দিলেন আমির খানের ‘মা’ অর্থাৎ মোনা সিং। যিনি এর আগে লাল সিং চাড্ডায় আমিরের মায়ের ভূমিকায় অভিনয় করেছিলেন...</p>
+                    </div>
+                    <br>    
+                    <div class="last-row-second">
+                        <div class="last-row-second-fast">
+                            <img src="img/image-280355-1633259729.jpeg"alt="news" width="100% " height="70%">
+                          
+                            <p style="font-weight:bold; font-size:15px;">শিল্পী কখনো তৃপ্ত হয় না: রজতাভ দত্ত</p>
+                            <p style="font-size:13px;">রোমান্টিক গল্পের সিনেমা। ভালোবাসা দিবস উপলক্ষে এটি নির্মাণ করা হচ্ছে...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-40.jpeg"alt="news" width="100% " height="70%">
+                            <p style="font-weight:bold; font-size:15px;">‘আমাদের শর্ত ছাড়াই বিবাহ বিচ্ছেদ হচ্ছে’</p>
+                            
+                           
+                            <p style="font-size:13px;"> বিবৃতিতে সামান্থা-চৈতন্য বলেছেন, ‘আমরা অনেক আলোচনা ও চিন্তা-ভাবনার পর...</p>
+                        </div>
+                        <div class="last-row-second-fast">
+                            <img src="img/image-280391-1633271675.jpeg"alt="news" width="100% " height="70%">
+                       
+                            <p style="font-weight:bold; font-size:15px;">‘আমাকে কেন গ্রেফতার করা হলো, বুঝতে পেরেছি: শাহরুখের ছেলে’</p>
+                            <p style="font-size:13px;">প্রমোদতরীর পার্টিতে মাদককাণ্ডে গ্রেফতার বলিউড বাদশা শাহরুখ...</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>  
+         <br>
+         <br>
+         <br>
+         <footer>
+             <div class="row20">
+                <div class="col-wrap1 clearfix">
+                    <div class="col fast">  <img  src="img/main footer-logo.png"/>
+                        <p style="font-size: 12px;"> সম্পাদক: তাসমিমা হোসেন</p>
+                    </div>
+
+                    <div class="col second">
+                        <strong><p>ইত্তেফাক গ্রুপ অব পাবলিকেশন্স লিঃ-এর পক্ষে তারিন হোসেন কর্তৃক ৪০, কাওরান বাজার, ঢাকা-১২১৫ থেকে প্রকাশিত ও মুহিবুল আহসান কর্তৃক নিউ নেশন প্রিন্টিং প্রেস, কাজলারপাড়, ডেমরা রোড, ঢাকা-১২৩২ থেকে মুদ্রিত।</p></strong> 
+                                    <strong><p>বিজ্ঞাপন | যোগাযোগ | গোপনীয়তার নীতি | শর্তাবলী</p></strong>
+                                    <i class="fa fa-copyright" aria-hidden="true"></i> <strong>প্রকাশক কর্তৃক সর্বস্বত্ব সংরক্ষিত</strong>
+                    </div>
+                    <div class="col third">
+                        <ul style="list-style-type: none; border-right:1px solid black" >
+                            <li>লাইভ</li>
+                                &nbsp
+                            <li>খেলা</li>
+                                &nbsp
+                            <li>বিনোদন</li>
+                                &nbsp
+                            <li>ফিরে দেখা ২০২০</li>
+                    </ul>       
+                    </div>
+                    <div class="col third">
+                        <ul style="list-style-type: none;">
+                            <li>বাংলাদেশ ৫০</li>
+                                &nbsp
+                            <li>মুজিববর্ষ</li>
+                                &nbsp
+                            <li>ঐতিহাসিক ৭ মার্চ</li>
+                                &nbsp
+                            <li>রাজধানী</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul style="list-style-type: none;">
+                            <li>বাংলাদেশ ৫০</li>
+                                &nbsp
+                            <li>মুজিববর্ষ</li>
+                                &nbsp
+                            <li>ঐতিহাসিক ৭ মার্চ</li>
+                                &nbsp
+                            <li>রাজধানী</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="deve"><p><span>Developed By:</span> <span class="ore">orange</span> bd.com</p></div>
+            </div>
+        </footer>
+    </div>
+      
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
